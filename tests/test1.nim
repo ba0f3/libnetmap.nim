@@ -1,11 +1,10 @@
 import unittest, netmap
 
+var nm = Netmap()
 test "open netmap device":
-  var nm = Netmap()
   nm.open("netmap:eth0")
 
-  echo nm.nm_desc[]
-
+test "close netmap device":
   nm.close()
 
 

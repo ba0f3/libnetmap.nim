@@ -1,4 +1,4 @@
-import netmap/[netmap, user, legacy]
+import netmap/user
 
 export NM_OPEN_FLAG, nm_pkthdr
 
