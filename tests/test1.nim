@@ -1,4 +1,4 @@
-import unittest, netmap
+import unittest, libnetmap/netmap
 
 var nm = Netmap()
 test "open netmap device":

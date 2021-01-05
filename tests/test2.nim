@@ -1,4 +1,4 @@
-import posix, netmap, sugar
+import posix, libnetmap/netmap, libnetmap/netmap/user
 
 var nm = Netmap()
 nm.open("netmap:eth0")

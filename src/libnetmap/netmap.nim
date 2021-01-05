@@ -1,10 +1,4 @@
 import netmap/user
-
-export NM_OPEN_FLAG, nm_pkthdr
-
-when not defined(release):
-  {.passC: "-DDEBUG_NETMAP_USER".}
-
 type
   NetmapError = object of IOError
 

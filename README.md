@@ -1,2 +1,2 @@
-# netmap.nim
-netmap wrapper for Nim https://github.com/luigirizzo/netmap
+# libnetmap.nim
+libnetmap wrapper for Nim https://github.com/luigirizzo/netmap

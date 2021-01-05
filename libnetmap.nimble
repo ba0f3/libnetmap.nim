@@ -2,7 +2,7 @@
 
 version       = "0.1.0"
 author        = "Huy Doan"
-description   = "A new awesome nimble package"
+description   = "libnetmap wrapper"
 license       = "MIT"
 srcDir        = "src"
 

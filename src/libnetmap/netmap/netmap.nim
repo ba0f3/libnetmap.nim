@@ -216,3 +216,8 @@ type
     hwtail*: uint32
     kern_need_kick*: uint32
     pad*: array[13, uint32]
+
+  nmreq_opt_extmem* = object
+    nro_opt*: nmreq_option
+    nro_usrptr*: uint64
+    nro_info*: nmreq_pools_info
